@@ -21,7 +21,7 @@
         			margin: 0 auto;
         			padding:0;
         			font-family: 'Roboto Condensed', sans-serif;
-        			color:white;
+        			color:#fcf9f9;
         		}
         		body{
         			background: black;
@@ -37,8 +37,8 @@
 				#header{
 					width: inherit;
 					padding: 15px 0px;
-					background: #322d2d;
-					border-bottom: 3px solid #1890D6;
+					background: #ececec;
+					/*! border-bottom: 3px solid #1890D6; */
 					position: fixed;
 					top: 0;
 					z-index: 200;
@@ -58,7 +58,7 @@
 
 				
 				.headerLink a {
-				    color: #fff;
+				    color: #1b1a1a;
 				    text-decoration: none;
 				    cursor: pointer;
 				    transition: all 150ms ease-in-out;
@@ -102,7 +102,7 @@
 
 				.tagline h1{
 					font-size: 43px;
-					color: #1890d6;
+					color: #2F0651;
 				}
 				.tagline p{
 					font-size: 20px;
@@ -115,8 +115,7 @@
 				.shrink{
 					position: fixed;
 					top: 64px;
-					background: silver;
-					width: 1060px;
+					background: silver;					
 					-webkit-box-shadow: 1px 21px 9px -17px rgba(0,0,0,0.55);
 					-moz-box-shadow: 1px 21px 9px -17px rgba(0,0,0,0.55);
 					box-shadow: 1px 21px 9px -17px rgba(0,0,0,0.55);
@@ -130,14 +129,16 @@
 					padding: 10px 8%;					
 					color:white;
 					font-size: 44px;
+					margin: 10px ;
 
 				}
 				.promo-choice{
 					margin: 0px 10px;
 					height: 79px;
 					width: 187px;
-				    background: #322d2d;
+				    background: #312D4A;
 
+					margin: 10px 5px;
 				}
 				.promo-desc, .promo-type, .promo-type p, .promo-type p span{
 					font-family: 'Oswald', sans-serif;
@@ -156,7 +157,7 @@
 				.promo-type{
 					width: 59%;
 					height: inherit;
-					background: #1890D6;
+					background: #523F74;
 					text-align: center;
 				}
 
@@ -168,10 +169,13 @@
 					
 				}
 			/* Section content css */
+				#content{
+					border-top: 5px solid #383A39;
+				}
 
 				#content .form{
 					width: 32%;
-					padding: 33px 10px;
+					padding: 26px 10px;
 					text-align: center;
 					background: white;
 					margin: 10px;
@@ -179,20 +183,17 @@
 				}
 
 				#content .content-detail{
-					width: 61%;
+					width: 46%;
 					padding: 22px 15px;
 					color: black;
 					text-align: justify;
 					
 				}	
 
-				.content-detail h1{
-					color: #1890D6;
-				}		
-
-				.content-detail b{
-					color: black;
-				}				
+				.content-detail h2{
+					color:#523F74;
+					text-align: center;
+				}			
 
 				.form-group{
 					margin: 3px 0px;
@@ -226,7 +227,7 @@
 				}
 
 				.submit-btn input{
-					background: #1890D6;
+					background: #4C2C5A;
 					padding: 5px;
 					color: white;
 					font-size: 20px;
@@ -248,10 +249,63 @@
 				}
 
 			/*end content css */
+			/* start content ingredients */
+
+
+				#ingredients{
+					padding: 10px 8%;					
+					color:white;
+					font-size: 44px;
+					margin: 10px ;
+
+				}
+
+				#ingredients .title h5{
+					text-align: center;
+					color: #523F74;
+
+				}
+				.ingredients-choice{
+					
+					height: auto;
+					width: 191px;
+					margin: 10px 11px;
+				}
+				.ingredients-desc, .ingredients-type,{
+					font-family: 'Oswald', sans-serif;
+				}
+
+				.ingredients-type img{				
+					width: 180px;
+				}
+				
+
+				.ingredients-type{
+					width: inherit;
+					height: inherit;			
+					text-align: center;
+				}
+
+				.ingredients-desc, .ingredients-desc p{
+					text-align: center;
+					padding: 3px ;		
+				}
+
+				.ingredients-desc{
+					font-size: 22px;
+					color: #523F74;
+;
+				}
+
+				.ingredients-desc p{
+					font-size: 17px;
+					color: black;
+					text-align: Left;
+				}
 
 			/*start content footer*/
 				footer{
-					background-color: #322d2d;
+					background-color: #ECECEC;
 					height: 145px;
 					padding: 19px 0 0 0;
 				}
@@ -259,6 +313,7 @@
 				footer p {
 					text-align: center;
 
+					color: black;
 				}
 
 
