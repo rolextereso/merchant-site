@@ -208,6 +208,10 @@
 					height: auto;
 				}
 
+				.form-header{
+					border-bottom: 1px solid silver;
+				}
+
 				.form-header p{
 					color: black;
 				}
