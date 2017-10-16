@@ -1,0 +1,237 @@
+					/* Common CSS */
+        		.clearfix:before, .clearfix:after{
+				    content: " ";
+				    display: table;
+				}
+
+				.clearfix:after {
+				    clear: both;
+				}
+
+				.alignRight{
+					float:right;
+				}
+
+				.alignLeft{
+					float:left;
+				}
+				/* end Common CSS */
+
+				* {
+        			margin: 0 auto;
+        			padding:0;
+        			font-family: 'Roboto Condensed', sans-serif;
+        			color:white;
+        		}
+        		body{
+        			background: black;
+        		}
+        	
+
+				#container{
+					width: 1300px;
+					background: silver;
+					height: auto;
+				}
+
+				#header{
+					width: inherit;
+					padding: 15px 0px;
+					background: #322d2d;
+					border-bottom: 3px solid #8DC02A ;
+					position: fixed;
+					top: 0;
+					z-index: 200;
+
+				}
+
+				.innerHeader{
+					width: 1100px;
+					margin: auto;
+				}
+
+				.headerLink li{
+					display: inline;
+					margin: 0px 10px;
+					line-height: 2em;
+				}
+
+				
+				.headerLink a {
+				    color: #fff;
+				    text-decoration: none;
+				    cursor: pointer;
+				    transition: all 150ms ease-in-out;
+				}
+
+				.headerLink a:hover {
+				    color: rgb(155, 198, 32);
+
+				}
+
+				/* section cover css */
+				#cover{
+					height: 483px;
+					background: url(../img/block01-bg.jpg) top center;
+					background-size: cover;
+				}
+
+				.tagline, .bottle, .cream{						
+					position: relative;			
+				}
+
+				.bottle, .cream{
+					height: 70%;
+					top: 30%;
+					width: 50%;	
+					text-align: center;
+				}
+
+				.bottle img, .cream img{
+					width: 170px;					
+				}
+
+				.tagline{
+					height: 50%;
+					width: 30%;					
+					padding: 0px 10%;
+					top: 50%;
+					
+				}
+
+				.tagline h1{
+					font-size: 43px;
+				}
+				.tagline p{
+					font-size: 20px;
+				}
+
+				/* end section cover css */
+
+				/* Section promo css*/
+				#promo{
+					padding: 10px 2%;					
+					color:white;
+					font-size: 44px;
+
+				}
+				.promo-choice{
+					margin: 0px 10px;
+					height: 79px;
+					width: 187px;
+				    background: #322d2d;
+
+				}
+				.promo-desc, .promo-type, .promo-type p, .promo-type p span{
+					font-family: 'Oswald', sans-serif;
+				}
+
+				.promo-type p{
+					font-size: 28px;
+					line-height: 38px;
+
+				}
+				.promo-type p span{
+					font-size: 21px;	
+
+				}
+
+				.promo-type{
+					width: 59%;
+					height: inherit;
+					background: #74980c;
+					text-align: center;
+				}
+
+				.promo-desc{
+					text-align: center;
+					font-size: 27px;
+					padding: 3px ;
+					line-height: 68px;
+					
+				}
+			/* Section content css */
+
+				#content .form{
+					width: 32%;
+					padding: 10px;
+					text-align: center;
+					background: white;
+					margin: 10px;
+					border-radius: 6px;		
+				}
+
+				#content .content-detail{
+					width: 61%;
+					padding: 22px 15px;
+					color: black;
+					text-align: justify;
+					
+				}				
+
+				.form-group{
+					margin: 3px 0px;
+				}
+				.form-group label, .form-group input{
+					    line-height: 34px;
+					    color: black;
+				}
+
+				.form-group label{
+					width: 29%;
+					text-align: right;
+					display: block;
+					float: left;
+					padding-right: 4px;
+
+					
+				}
+
+				.form-group input, .form-group select{
+					    height: 30px;
+					    background: rgba(255,255,255,.8);
+					    border: none;
+					    border-radius: 3px;
+					    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+					    border: 1px solid #ccc;
+					    width: 57%;
+					    display: block;
+					    float: left;
+					    padding: 0px 3px;					 
+				}
+
+				.submit-btn input{
+					background: #74980c;
+					padding: 5px;
+					color: white;
+					font-size: 20px;
+					height: auto;
+				}
+
+				.form-header p{
+					color: black;
+				}
+
+				.form-header p:nth-child(2){
+					font-size: 20px;
+					font-weight: bold;
+
+				}
+
+			/*end content css */
+
+			/*start content footer*/
+				footer{
+					background-color: #322d2d;
+					height: 145px;
+					padding: 19px 0 0 0;
+				}
+
+				footer p {
+					text-align: center;
+
+				}
+
+
+
+			/* end content footer */
