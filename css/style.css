@@ -38,7 +38,7 @@
 					width: inherit;
 					padding: 15px 0px;
 					background: #322d2d;
-					border-bottom: 3px solid #8DC02A ;
+					border-bottom: 3px solid #1890D6;
 					position: fixed;
 					top: 0;
 					z-index: 200;
@@ -65,7 +65,7 @@
 				}
 
 				.headerLink a:hover {
-				    color: rgb(155, 198, 32);
+				    color: #1890d6;
 
 				}
 
@@ -96,21 +96,38 @@
 					width: 30%;					
 					padding: 0px 10%;
 					top: 50%;
+
 					
 				}
 
 				.tagline h1{
 					font-size: 43px;
+					color: #1890d6;
 				}
 				.tagline p{
 					font-size: 20px;
+					color: black;
 				}
 
 				/* end section cover css */
 
 				/* Section promo css*/
+				.shrink{
+					position: fixed;
+					top: 64px;
+					background: silver;
+					width: 1060px;
+					-webkit-box-shadow: 1px 21px 9px -17px rgba(0,0,0,0.55);
+					-moz-box-shadow: 1px 21px 9px -17px rgba(0,0,0,0.55);
+					box-shadow: 1px 21px 9px -17px rgba(0,0,0,0.55);
+					-moz-transition: all 0.4s ease;
+					-webkit-transition: all 0.4s ease;
+					-o-transition: all 0.4s ease;
+
+				}
+
 				#promo{
-					padding: 10px 2%;					
+					padding: 10px 8%;					
 					color:white;
 					font-size: 44px;
 
@@ -139,7 +156,7 @@
 				.promo-type{
 					width: 59%;
 					height: inherit;
-					background: #74980c;
+					background: #1890D6;
 					text-align: center;
 				}
 
@@ -201,7 +218,7 @@
 				}
 
 				.submit-btn input{
-					background: #74980c;
+					background: #1890D6;
 					padding: 5px;
 					color: white;
 					font-size: 20px;
