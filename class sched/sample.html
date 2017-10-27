@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		*{
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			-box-sizing: border-box;
+		}
+
+		.col-2 > *{width: 50%;}
+   
+		.row > *{
+			float:left;
+		    padding: 2px;
+			border: 1px solid black;
+		}
+
+		.row:nth-last-child(1){
+			content: "";
+			display: table;
+			clear:both;
+		}
+
+		.row div:nth-child(even){
+			background: yellow;
+
+		}
+	</style>
+</head>
+
+<body>
+	<div class="row col-2">
+		<div>sfsfs</div>
+		<div>sfsfs</div>		
+		<div>sfsfs</div>		
+	</div>
+
+	<div class="row">
+		<div>sfsfs</div>
+		<div>sfsfs</div>
+		<div>sfsfs</div>
+		<div>sfsfs2</div>
+	</div>
+
+</body>
+</html>
