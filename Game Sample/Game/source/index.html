@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Who wants to be a millionaire</title>
+    <meta charset="utf-8" />
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script src="jquery.js"></script>
+    <script src="jquery.cookie.js"></script>
+ 
+ </head>
+<body>
+    <audio id="background" src='sound/background.mp3'></audio>
+    <audio id="rightsound" src='sound/right.mp3'></audio>
+    <audio id="wrongsound" src='sound/wrong.mp3'></audio>
+    <audio id="selecting" src='sound/selecting.mp3'></audio>
+    <div class="spacer"></div>
+    <div id="navContent">
+        <div id="menu">
+            <button id="_50x50">
+                <img src="img/_50x50.png" />
+            </button>
+            <button id="audience">
+                <img src="img/audience.png" />
+            </button>
+        </div>
+        <div id="prev"></div>
+        <div id="next"></div> 
+        <div id="dialog">
+            <div style="padding: 21px;">
+                <span style="
+                        border-right: 1px solid white;
+                        color: white;
+                        font-size: 24px;
+                        padding: 5px;
+                    ">A.</span><div style="
+                        background: yellow;
+                        height: 14px;
+                        width: 100px;
+                        display: inline-block;
+                        margin-left: 10px;
+                    "></div><span>60%</span>
+            </div>
+        </div>
+        <div id="dialogBackground"></div>       
+    </div>
+    <script src="gameController.js"></script>
+
+</body>
+</html>

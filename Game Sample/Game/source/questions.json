@@ -1,0 +1,28 @@
+{"quizlist":[  
+	{
+	"question":"In what year was the first James Bond film 'Dr. No' released?",
+	"option1":"Zero",
+	"option2":"One",
+    "option3":"Two",
+    "option4": "Three",
+    "rating": {"A": 60,"B": 30,"C": 50,"D": 70}
+	},
+	{
+	"question":"The Southern Ocean surrounds which continent?",
+	"option1":"Antarctica",
+	"option2":"Pacifica",
+    "option3":"Atlantica",
+    "option4": "Southern Ocean",
+    "rating": {"A": 40,"B": 30,"C": 50,"D": 80}
+	},
+	{
+	"question":"Which country is long and thin?",
+	"option1":"Chile",
+	"option2":"Uruguay",
+    "option3":"Colombia",
+    "option4": "Philippines",
+    "rating": {"A": 20,"B": 30,"C": 40,"D": 80}
+	}
+
+]
+}
